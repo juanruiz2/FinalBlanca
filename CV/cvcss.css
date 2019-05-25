@@ -1,0 +1,88 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .4rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.h4, h4 {
+    margin-bottom: 0rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.h5, h5 {
+    margin-bottom: -.1rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.card-title {
+    margin-bottom: -.5rem;
+}
+body{
+    background: url(fernando-hernandez-1258790-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -300px;
+    
+}
+
+.cardImage{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -300px;
+}
+/* .fondo{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -100;
+    background-size: cover;
+} */
+
+p {
+    display: block;
+    margin-block-start: .5em;
+    margin-block-end: .2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.iconSize{
+    margin-top: 15px;
+    font-size: 35px !important;
+    color: black;
+    margin-bottom: 10px;
+
+}
+.containerStyle{
+    background: rgba(38, 38, 38, 0.2) !important;
+    width: 80%;
+    height: 85vh;
+}
+
+.textoSilver{
+    color: darkblue;
+}
+
+.textoBlanco{
+    color: cornsilk !important;
+}
+.social{
+    position: absolute;
+    right: 20px;
+    top: 65px;
+}
+.social ul li{
+    list-style: none;
+    font-size: 24px;
+    background: rgba(38, 38, 38, 0.6);
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.social ul li a i{
+    color: cornsilk !important;
+}
